@@ -1,5 +1,19 @@
 # stlink-uart
-串口和stlink二合一调试工具。
+串口和stlink/V2二合一调试工具。
+
+---
+3d模型图
+![image](https://github.com/solosky/stlink-uart/raw/master/preview/PCB_3d_Top.png)
+![image](https://github.com/solosky/stlink-uart/raw/master/preview/PCB_3d_Bottom.png)
+USB设备树
+![image](https://github.com/solosky/stlink-uart/raw/master/preview/USB设备树.png)
+接口定义
+![image](https://github.com/solosky/stlink-uart/raw/master/preview/接口定义.png)
+
+方案：
+ * GL852G - USB HUB
+ * CP2102 - UART USB Bridge
+ * STM32F103C8T6 - STLINK/V2
 
 支持的功能：
  * SWIM 编程和调试（STM8）
